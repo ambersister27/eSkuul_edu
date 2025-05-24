@@ -121,15 +121,15 @@ foreach ($studentlist as $row):
 ?>
 								<tr>
 									<td><?php echo $row['fullname']; ?></td>
-									<td><?php echo $row['category']; ?></td>
 									<td><?php echo $row['register_no']; ?></td>
 									<td><?php echo _d($row['admission_date']); ?></td>
+									<td><?php echo $row['category']; ?></td>
 									<td><?php echo $row['class_name'] . " (" . $row['section_name'] . ")" ; ?></td>
 									<td><?php echo translate($row['gender']); ?></td>
 									<td><?php echo $row['mobileno']; ?></td>
 									<td><?php echo $this->attendance_model->stuAttendanceCount_by_date($enrollID, $start, $end, set_value('attendance_type')); ?></td>
-									<?php endforeach; ?>
 								</tr>
+<?php endforeach; ?>
 							</tbody>
 						</table>
 					</div>
