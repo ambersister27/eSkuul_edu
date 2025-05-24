@@ -1,0 +1,17 @@
+{
+    "name": "Ramom School QR Code Attendence",
+    "unique_prefix": "qrcode",
+    "items_code": "45639462",
+    "version": "200",
+    "system_version": "620",
+    "last_update": "2024-02-09 12:00:06"
+}
+
+{
+    "name": "Ramom School Subscription (Saas)",
+    "unique_prefix": "saas",
+    "items_code": "45121444",
+    "version": "310",
+    "system_version": "650",
+    "last_update": "2024-05-26 12:00:06"
+}
